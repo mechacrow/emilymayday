@@ -5,7 +5,8 @@ html, body {
     font-size: 14px;
     font-weight: 400;
 	
-	background-color: #eeeeee;
+	/**background-color: #eeeeee;**/
+    background-color: white;
 }
 
 /* common style's */
@@ -116,7 +117,7 @@ label {
     width: 41.66666667%;
     height: 100%;	
     padding: 20px;
-	background: url(../images/main_1150.jpg);
+	background: url(../images/em_main_002.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -129,7 +130,7 @@ label {
 	text-transform: uppercase;
 	letter-spacing: 13px;
     position: absolute;
-    color: black;
+    color: white;
     font-size: 1.2em;
     font-weight: 900;
     margin: 0;
@@ -141,7 +142,7 @@ label {
     letter-spacing: 5px;
    /** font-size: 15px;**/
 	font-size: 1.2em;
-	color: black;
+	color: white;
 	letter-spacing: 7px;   
 }
 
@@ -193,7 +194,7 @@ label {
 	position: fixed;
 	top: 0;
 	left: 41.66666667%;
-	background: #eeeeee;
+	background: white;
 	width: 58.33333333%;
 	border-bottom: 0;
     padding: 20px 40px;
@@ -202,7 +203,7 @@ label {
 }
 
 .event-tab .nav-tabs > li > a {
-    font-size: 18px;
+    font-size: 14px;
 	color: rgba(0, 0, 0, 0.28);
     margin-right: 30px;
     padding: 5px 0px;
@@ -419,6 +420,42 @@ label {
 	.modal.right.fade.in .modal-dialog {
 		right: 0;
 	}
+
+
+/* Back of Albums */
+
+.imghvr-flip-vert figcaption {
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+}
+
+.imghvr-flip-vert figcaption i {
+    padding: 5%;
+}
+
+#album-icons {
+    font-size: 1.5em;
+}
+
+#album-icons i:hover {
+    color: pink;
+}
+
+.sample audio {
+    padding: none;
+    margin-top: 8%;
+    width: 100%;
+}
+
+
+.promo {
+    padding: 40px;
+    width: 100%;
+}
+
+
 
 /* media query for tab */
 @media (max-width: 767px) {
